@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Make_a_deal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <h2>Happy New Year Buddies✨</h2>
+    <big><b><i>Welcome</i></b></big><br>
+    <img src="image.jpg" alt="New_year_2025" height="300" />
+    <hr>
+    <div><b><i>"Hello, 2025! let's make a deal:Promise me to bring more moments of joy and lots of fun and I'll bring my
+          best self to every new opportunity, stay positive, and spread kindness like WiFi signals, Let's create
+          unforgettable memories together</i></b>😊✨"</div><br>
+    <span class="brick"><b><i><input type="checkbox" name="do" id="box" onclick="check(this)">
+          <label for="box">You probably...?</label></i></b></span>
+    <br><br>
+    <div><b><i><b>"New year,new me?Nah,let's just stick to being our awesome selves,Once again Happy New
+            Year</b></i>😄"</b></div><br>
+    <div><b><i>Hey,do you still think it's just a new year greetings. Yes,it is but more than that it is______.</i></b>
+    </div><br>
+    <hr>
+    <span><b><i>
+          <a href="http://192.168.1.7:3000/index.html">
+            <button type="button" class="pre">Previous One ↩️</button>
+          </a>
+          <a href="http://192.168.1.7:3000/guide.html">
+            <button type="button" class="but" disabled id="btn">After This🎯</button>
+          </a>
+        </i></b></span>
+  </main>
+</body>
+<script>
+  function check(checkbox) {
+    document.getElementById('btn').disabled = !checkbox.checked;
+  }
+</script>
+
+</html>
