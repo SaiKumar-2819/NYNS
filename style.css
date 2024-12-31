@@ -1,0 +1,52 @@
+body{
+background-color: orange;
+margin: 0%;
+padding: 0%;
+}
+h2{
+    margin-left: 10%;
+    padding: 0%;
+    color:maroon;
+}
+ima{
+    margin-right: 50%;
+}
+div{
+    margin-left: 3%;
+    padding: 0%;
+}
+header{
+    background-color: rgb(236, 95, 43);
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    margin-left: 16%;
+}
+p{
+    margin-left: 3%;
+}
+big{
+    margin-left: 37%;
+}
+span{
+    margin-left: 3%;
+}
+.yellow{
+    color: yellow;
+}
+.brick{
+    color:firebrick;
+}
+.but{
+    margin-left: 37%;
+    padding: 2%;
+}
+.pre{
+    margin-left: 1%;
+    padding: 2%;
+}
+.submit{
+    padding: 7px;
+    margin-left: 78%;
+}
