@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compass</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h2><b><i>Life's little compass...</i>🧭</b></h2>
+        <div><b><i>Lost your way...🔍,Answer these 3 questions to get back on track</i>✨</b></div><br>
+        <ol>
+                <form action="post"><b><i>
+                            <li><b><i>I'm sure it's a long list,but what's the one thing you didn't mess up in
+                                        2024...?</i></b>
+                            </li><br>
+                            <label for="ans">Response:</label>
+                            <textarea name="comments" id="ans" placeholder="Your achievement" cols="40"
+                                rows="2"></textarea>
+                            <span class="brick"><b><i>
+                                        <input type="checkbox" name="achieve" id="Q1">
+                                        <label for="Q1">Done</label>
+                                    </i></b></span>
+                        </i>
+                    </b>
+                </form><br>
+                <form action="post"><b><i>
+                            <li>What's still on your 'SOMEDAY' list from 2024...?</li><br>
+                            <label for="ans1">Response:</label>
+                            <textarea name="comments" id="ans1" placeholder="Missed the mark" cols="40"
+                                rows="2"></textarea>
+                            <span class="brick"><b><i>
+                                        <input type="checkbox" name="not_achieve" id="Q2">
+                                        <label for="Q2">Done</label>
+                                    </i></b></span>
+                        </i></b>
+                </form><br>
+                <form action="post"><b><i>
+                            <li>Imagine you're a time traveler from 1-Jan-2026,What advice would you give to
+                                yourself...?
+                            </li><br>
+                            <label for="ans2">Response:</label>
+                            <textarea name="comments" id="ans2" placeholder="Want to knock out" cols="40"
+                                rows="2"></textarea>
+                            <span class="brick"><b><i>
+                                        <input type="checkbox" name="what_to" id="Q3">
+                                        <label for="Q3">Done</label>
+                                    </i></b></span>
+                        </i></b></form>
+        </ol>
+        <hr>
+        <div><b><i>"You don't have to see the whole staircase,Just take the first step</i>👣✨"</b></div><br>
+        <span><b><i>
+                    <input type="checkbox" id="box5" onclick="check(this)">
+                    <label for="box5">Agree</label>
+                </i></b></span><br>
+        <hr>
+        <span><b><i>
+                    <a href="http://192.168.1.7:3000/next.html">
+                        <button type="button" class="pre">Previous One ↩️</button>
+                    </a>
+                    <a href="http://192.168.1.7:3000/conclusion.html">
+                        <button type="button" class="but" disabled id="btn">Conclusion ✅</button>
+                    </a>
+                </i></b></span>
+    </main>
+</body>
+<script>
+    function check(checkbox) {
+        document.getElementById('btn').disabled = !checkbox.checked;
+    }
+</script>
+</html>
